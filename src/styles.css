@@ -1,0 +1,308 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  max-width: max-content;
+}
+
+.header {
+  background-color: white;
+  color: gray;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 233px;
+  height: 65px;
+  object-position: center;
+  align-items: left;
+  top: 28px;
+  left: 39px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.header nav a {
+  color: grey;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.header input[type="search"] {
+  padding: 5px;
+}
+
+.header .icons {
+  display: flex;
+  align-items: center;
+}
+
+.header .icons span {
+  margin-left: 15px;
+}
+.container {
+  padding: 20px;
+  position: relative;
+  text-align: left;
+}
+
+h2 {
+  color: white;
+}
+.movie {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/a-woman-aiming-a-rifle-in-territory.jpg?q=70&fit=crop&w=735&h=413&dpr=1);
+  background-repeat: no-repeat;
+  background-attachment: fit-content;
+  background-size: 100% 100%;
+}
+
+.movie-details {
+  max-width: 600px;
+}
+
+.movie-details h2 {
+  margin-top: 0;
+}
+
+.movie-details p {
+  color: white;
+  font-size: 16px;
+}
+
+.play-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+.movie-list {
+  justify-content: space-between;
+}
+
+.movie-item-1 {
+  background-image: url(https://www.hdfilmizle.to/v/500227/poster/watch/kipirdama.webp);
+  width: 20rem;
+  height: 23rem;
+  color: white;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-attachment: fit-content;
+  background-size: 100% 100%;
+}
+.movie-item-2 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/tr/4/4a/Black_Adam_film_afi%C5%9Fi.jpg);
+  width: 20rem;
+  height: 23rem;
+  color: white;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-attachment: fit-content;
+  background-size: 100% 100%;
+}
+.movie-item-3 {
+  background-image: url(https://yabancidizi.tv/uploads/series/napad.jpg);
+  width: 20rem;
+  height: 23rem;
+  color: white;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-attachment: fit-content;
+  background-size: 100% 100%;
+}
+.category {
+  margin-top: 30px;
+}
+
+.category h3 {
+  margin: 0 0 10px;
+  justify-content: space-between;
+}
+.movie-item-4 {
+  background-image: url(https://static.birgun.net/resim/content/2023/09/30/olumlu-dunya-2-nin-ilk-tanitimi-yayinlandi.webp);
+  width: 20rem;
+  height: 23rem;
+  color: white;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-attachment: fit-content;
+  background-size: 100% 100%;
+}
+.movie-item-5 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Aile_Aras%C4%B1nda_poster.jpg/220px-Aile_Aras%C4%B1nda_poster.jpg);
+  width: 20rem;
+  height: 23rem;
+  color: white;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-attachment: fit-content;
+  background-size: 100% 100%;
+}
+.movie-item-6 {
+  background-image: url(https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRvXSKcuuHSY0bCWmXoFmnj4kRhboqtlC6MFOk8840BWTIsPD2uRhJLUMGFksFxVzvFQMyrKcxvpwqbDHPePIZGhogi3rUw27a0teVH3wCXYQnE5q0-i13JoPrErHFtotMDXng.jpg?r=478);
+  width: 20rem;
+  height: 23rem;
+  color: white;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-attachment: fit-content;
+  background-size: 100% 100%;
+}
+
+.movie-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  align-items: center;
+}
+
+.movie-list .play-button {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/* Alt kısım */
+.footer {
+  display: flex;
+  background-color: white;
+  color: grey;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+.footer.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .social-icons {
+  margin-top: 10px;
+}
+
+.footer-p2 {
+  margin-top: 20px;
+}
+.twitter-logo {
+  width: 50px;
+  height: 50px;
+}
+.youtube-logo {
+  width: 50px;
+  height: 50px;
+}
+.facebook-logo {
+  width: 50px;
+  height: 50px;
+}
+.appstore-logo {
+  width: 120px;
+  height: 50px;
+}
+.googleplay-logo {
+  width: 120px;
+  height: 50px;
+}
+@media (max-width: 768px) {
+  /* Genel ayarlar */
+  body {
+    padding: 0;
+    max-width: 100%;
+  }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .logo-img {
+    width: 135px;
+    height: 45px;
+    top: 16px;
+    gap: 10px;
+    opacity: 0px;
+  }
+  .icons {
+    width: 244px;
+    height: 66px;
+    top: 5px;
+    left: 196px;
+    gap: 0px;
+    opacity: 0px;
+    align-items: right;
+  }
+  .movie {
+    width: 920px;
+    height: 329px;
+    top: 118px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .movie-item-1,
+  .movie-item-2,
+  .movie-item-3 {
+    width: 421px;
+    height: 200px;
+    top: 463px;
+    left: 7px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .movie-item-4,
+  .movie-item-5,
+  .movie-item-6 {
+    width: 421px;
+    height: 200px;
+    top: 570px;
+    left: 7px;
+    gap: 20px;
+    opacity: 0px;
+    margin-bottom: 20px;
+  }
+  .footer {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 100vh;
+  }
+  .footer-p1 {
+    text-align: stretch;
+  }
+  .copyright {
+    width: 405px;
+    height: 91px;
+    top: -5338px;
+    left: 1530px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 238px;
+    height: 57px;
+    top: 869px;
+    left: 14px;
+    gap: 0px;
+    opacity: 0px;
+    justify-items: auto;
+  }
+}
